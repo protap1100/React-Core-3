@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Watch from "./Watch";
-import { addToLs, getStoredCart } from "../../utilits/localstorage";
+import { addToLs, getStoredCart, removeFromLs } from "../../utilits/localstorage";
 import Cart from "./cart/Cart";
 
 const Watches = () => {
@@ -34,10 +34,18 @@ const Watches = () => {
         addToLs(watch.id);
     };
 
+
+    const handleRemoveFromCart = id => {
+        const remainingCarts = cart.filter(bottle => bottle.id !== id);
+        setCart(remainingCarts) 
+        removeFromLs(id);
+    }
+
+
     return (
         <div>
             <h1>Total Watch: {watches.length}</h1>
-            <Cart cart={cart}></Cart>
+            <Cart cart={cart} handleRemoveFromCart={handleRemoveFromCart}></Cart>
             <div className="main-watches">
                 {watches.map((watch) => (
                     <Watch
