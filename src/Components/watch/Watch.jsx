@@ -10,7 +10,7 @@ const Watch = ({watch,handleAddToCart}) => {
                 <h2>Brand : {brand}</h2>
                 <h2>Brand : {model}</h2>
                 <h3>Price : {price}</h3>
-                <button onClick={() =>{handleAddToCart(watch.id)} }>Purchase Now</button>
+                <button onClick={() =>{handleAddToCart(watch)} }>Purchase Now</button>
             </div>
     );
 };
