@@ -1,0 +1,93 @@
+[
+    {
+      "id": "001",
+      "brand": "Rolex",
+      "model": "Submariner",
+      "price": 10000,
+      "movement": "Automatic",
+      "case_material": "Stainless Steel",
+      "water_resistance": "300m"
+    },
+    {
+      "id": "002",
+      "brand": "Omega",
+      "model": "Speedmaster Professional",
+      "price": 6000,
+      "movement": "Manual",
+      "case_material": "Stainless Steel",
+      "water_resistance": "50m"
+    },
+    {
+      "id": "003",
+      "brand": "Tag Heuer",
+      "model": "Carrera",
+      "price": 4500,
+      "movement": "Automatic",
+      "case_material": "Titanium",
+      "water_resistance": "100m"
+    },
+    {
+      "id": "004",
+      "brand": "Seiko",
+      "model": "Presage",
+      "price": 800,
+      "movement": "Automatic",
+      "case_material": "Stainless Steel",
+      "water_resistance": "50m"
+    },
+    {
+      "id": "005",
+      "brand": "Citizen",
+      "model": "Eco-Drive",
+      "price": 300,
+      "movement": "Solar",
+      "case_material": "Titanium",
+      "water_resistance": "100m"
+    },
+    {
+      "id": "006",
+      "brand": "Panerai",
+      "model": "Luminor",
+      "price": 12000,
+      "movement": "Manual",
+      "case_material": "Titanium",
+      "water_resistance": "300m"
+    },
+    {
+      "id": "007",
+      "brand": "Patek Philippe",
+      "model": "Nautilus",
+      "price": 30000,
+      "movement": "Automatic",
+      "case_material": "Rose Gold",
+      "water_resistance": "120m"
+    },
+    {
+      "id": "008",
+      "brand": "Audemars Piguet",
+      "model": "Royal Oak",
+      "price": 25000,
+      "movement": "Automatic",
+      "case_material": "Stainless Steel",
+      "water_resistance": "50m"
+    },
+    {
+      "id": "009",
+      "brand": "IWC",
+      "model": "Portugieser",
+      "price": 9000,
+      "movement": "Automatic",
+      "case_material": "Stainless Steel",
+      "water_resistance": "30m"
+    },
+    {
+      "id": "010",
+      "brand": "Cartier",
+      "model": "Tank",
+      "price": 5000,
+      "movement": "Quartz",
+      "case_material": "Gold",
+      "water_resistance": "30m"
+    }
+  ]
+  
